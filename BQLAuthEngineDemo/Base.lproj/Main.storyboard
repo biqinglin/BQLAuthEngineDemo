@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AP-i1-5tH">
+                                <rect key="frame" x="37.5" y="90" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="微信登陆">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="weChatLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BN8-2p-uaH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aM3-no-nXL">
+                                <rect key="frame" x="142.5" y="90" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="JLF-WF-nzF"/>
+                                    <constraint firstAttribute="height" constant="40" id="lDf-Q2-WbZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="QQ登陆">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="qqLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tkn-FW-OTN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7I-VD-EmT">
+                                <rect key="frame" x="247.5" y="90" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="微博登陆">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="weiBoLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDp-5s-7i8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cv1-wn-jei">
+                                <rect key="frame" x="37.5" y="145" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="微信文本分享">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="weChatShareWithTxt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZrG-kA-SiC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTR-NN-0Yy">
+                                <rect key="frame" x="37.5" y="200" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="微信图片分享">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="weChatShareWithImg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mAB-7g-Wfm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0q-HU-yEe">
+                                <rect key="frame" x="37.5" y="255" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="微信音乐分享">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="weChatShareWithMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pqE-uj-TES"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3s-D6-jyR">
+                                <rect key="frame" x="37.5" y="310" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="微信链接分享">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="weChatShareWithLink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KCG-eJ-Gvz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gw-9R-OH3">
+                                <rect key="frame" x="37.5" y="365" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="微信视频分享">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="weChatShareWithVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FdE-kL-qPO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cT5-Ll-Xfi">
+                                <rect key="frame" x="142" y="145" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="QQ文本分享">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="qqShareWithTxt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KbO-GB-tIM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZ2-Z5-GNf">
+                                <rect key="frame" x="142" y="200" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="QQ图片分享">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="qqShareWithImg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftG-xq-JEJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1il-4G-1hZ">
+                                <rect key="frame" x="142" y="255" width="90" height="40"/>
+                                <color key="backgroundColor" red="0.095826634719999998" green="0.74084595959999999" blue="0.66510167220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="QQ链接分享">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="qqShareWithLink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BQU-7n-heF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f3s-D6-jyR" firstAttribute="top" secondItem="P0q-HU-yEe" secondAttribute="bottom" constant="15" id="0HZ-nJ-jZS"/>
+                            <constraint firstItem="P0q-HU-yEe" firstAttribute="height" secondItem="4AP-i1-5tH" secondAttribute="height" id="1RY-PZ-Ang"/>
+                            <constraint firstItem="f3s-D6-jyR" firstAttribute="centerX" secondItem="4AP-i1-5tH" secondAttribute="centerX" id="6Gq-Rv-dHh"/>
+                            <constraint firstItem="6Gw-9R-OH3" firstAttribute="height" secondItem="4AP-i1-5tH" secondAttribute="height" id="6Hh-XM-BDc"/>
+                            <constraint firstItem="cT5-Ll-Xfi" firstAttribute="centerX" secondItem="aM3-no-nXL" secondAttribute="centerX" id="93h-hz-tnc"/>
+                            <constraint firstItem="cv1-wn-jei" firstAttribute="height" secondItem="4AP-i1-5tH" secondAttribute="height" id="Ao8-YZ-EvG"/>
+                            <constraint firstItem="1il-4G-1hZ" firstAttribute="centerX" secondItem="aM3-no-nXL" secondAttribute="centerX" id="C5N-9u-s5w"/>
+                            <constraint firstItem="hZ2-Z5-GNf" firstAttribute="width" secondItem="aM3-no-nXL" secondAttribute="width" id="CFi-iG-sxU"/>
+                            <constraint firstItem="cv1-wn-jei" firstAttribute="top" secondItem="4AP-i1-5tH" secondAttribute="bottom" constant="15" id="CIn-vJ-6Jr"/>
+                            <constraint firstItem="6Gw-9R-OH3" firstAttribute="width" secondItem="4AP-i1-5tH" secondAttribute="width" id="DAd-hq-dqz"/>
+                            <constraint firstItem="hZ2-Z5-GNf" firstAttribute="height" secondItem="aM3-no-nXL" secondAttribute="height" id="FEa-Eb-poW"/>
+                            <constraint firstItem="6Gw-9R-OH3" firstAttribute="centerX" secondItem="4AP-i1-5tH" secondAttribute="centerX" id="Jmc-dZ-0Km"/>
+                            <constraint firstItem="6Gw-9R-OH3" firstAttribute="top" secondItem="f3s-D6-jyR" secondAttribute="bottom" constant="15" id="Jpg-qF-pss"/>
+                            <constraint firstItem="1il-4G-1hZ" firstAttribute="top" secondItem="hZ2-Z5-GNf" secondAttribute="bottom" constant="15" id="KYJ-8t-BTZ"/>
+                            <constraint firstItem="j7I-VD-EmT" firstAttribute="height" secondItem="aM3-no-nXL" secondAttribute="height" id="M0E-t1-o0e"/>
+                            <constraint firstItem="1il-4G-1hZ" firstAttribute="height" secondItem="aM3-no-nXL" secondAttribute="height" id="Ovc-UO-J9r"/>
+                            <constraint firstItem="cT5-Ll-Xfi" firstAttribute="top" secondItem="aM3-no-nXL" secondAttribute="bottom" constant="15" id="UCg-GT-uE1"/>
+                            <constraint firstItem="MTR-NN-0Yy" firstAttribute="width" secondItem="4AP-i1-5tH" secondAttribute="width" id="UyC-w6-FrD"/>
+                            <constraint firstItem="f3s-D6-jyR" firstAttribute="width" secondItem="4AP-i1-5tH" secondAttribute="width" id="WP0-vq-bhy"/>
+                            <constraint firstItem="aM3-no-nXL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="Xx7-X6-4jo"/>
+                            <constraint firstItem="4AP-i1-5tH" firstAttribute="centerY" secondItem="aM3-no-nXL" secondAttribute="centerY" id="YbZ-ap-VAw"/>
+                            <constraint firstItem="hZ2-Z5-GNf" firstAttribute="centerX" secondItem="aM3-no-nXL" secondAttribute="centerX" id="ama-5b-xe6"/>
+                            <constraint firstItem="j7I-VD-EmT" firstAttribute="leading" secondItem="aM3-no-nXL" secondAttribute="trailing" constant="15" id="bPY-a1-dnK"/>
+                            <constraint firstItem="4AP-i1-5tH" firstAttribute="width" secondItem="aM3-no-nXL" secondAttribute="width" id="eMS-bY-nOU"/>
+                            <constraint firstItem="1il-4G-1hZ" firstAttribute="width" secondItem="aM3-no-nXL" secondAttribute="width" id="esc-Dg-k8t"/>
+                            <constraint firstItem="aM3-no-nXL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gcW-fr-Npd"/>
+                            <constraint firstItem="cT5-Ll-Xfi" firstAttribute="height" secondItem="aM3-no-nXL" secondAttribute="height" id="gg1-0m-sg2"/>
+                            <constraint firstItem="j7I-VD-EmT" firstAttribute="width" secondItem="aM3-no-nXL" secondAttribute="width" id="hjf-2L-VEv"/>
+                            <constraint firstItem="j7I-VD-EmT" firstAttribute="centerY" secondItem="aM3-no-nXL" secondAttribute="centerY" id="it8-iA-EP0"/>
+                            <constraint firstItem="hZ2-Z5-GNf" firstAttribute="top" secondItem="cT5-Ll-Xfi" secondAttribute="bottom" constant="15" id="lGP-yY-PDF"/>
+                            <constraint firstItem="P0q-HU-yEe" firstAttribute="width" secondItem="4AP-i1-5tH" secondAttribute="width" id="oMM-ls-GBY"/>
+                            <constraint firstItem="cv1-wn-jei" firstAttribute="centerX" secondItem="4AP-i1-5tH" secondAttribute="centerX" id="pyD-4v-Fgt"/>
+                            <constraint firstItem="MTR-NN-0Yy" firstAttribute="centerX" secondItem="4AP-i1-5tH" secondAttribute="centerX" id="qGb-5C-Ap1"/>
+                            <constraint firstItem="cT5-Ll-Xfi" firstAttribute="width" secondItem="aM3-no-nXL" secondAttribute="width" id="qfe-Vo-Dvd"/>
+                            <constraint firstItem="f3s-D6-jyR" firstAttribute="height" secondItem="4AP-i1-5tH" secondAttribute="height" id="ryT-cT-PWp"/>
+                            <constraint firstItem="P0q-HU-yEe" firstAttribute="top" secondItem="MTR-NN-0Yy" secondAttribute="bottom" constant="15" id="t5H-nA-lYM"/>
+                            <constraint firstItem="cv1-wn-jei" firstAttribute="width" secondItem="4AP-i1-5tH" secondAttribute="width" id="udj-bt-eTv"/>
+                            <constraint firstItem="MTR-NN-0Yy" firstAttribute="top" secondItem="cv1-wn-jei" secondAttribute="bottom" constant="15" id="vkx-be-0BI"/>
+                            <constraint firstItem="P0q-HU-yEe" firstAttribute="centerX" secondItem="4AP-i1-5tH" secondAttribute="centerX" id="wTG-Lu-zFB"/>
+                            <constraint firstItem="aM3-no-nXL" firstAttribute="leading" secondItem="4AP-i1-5tH" secondAttribute="trailing" constant="15" id="xAz-Dl-7GP"/>
+                            <constraint firstItem="4AP-i1-5tH" firstAttribute="height" secondItem="aM3-no-nXL" secondAttribute="height" id="xGi-NK-HVP"/>
+                            <constraint firstItem="MTR-NN-0Yy" firstAttribute="height" secondItem="4AP-i1-5tH" secondAttribute="height" id="zdm-zK-Vfg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279.5" y="303.5"/>
+        </scene>
+    </scenes>
+</document>
