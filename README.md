@@ -1,7 +1,7 @@
 # BQLAuthEngineDemo
-利用QQ、微信的原生SDK实现的三方登陆、分享功能。包括：QQ登陆、微信登陆、微信文本、图片、链接等分享到会话、朋友圈、收藏；QQ文本、图片分享等实用功能
+利用QQ、微信的原生SDK实现的三方登录、分享功能。包括：QQ登录、微信登录、微信文本、图片、链接等分享到会话、朋友圈、收藏；QQ文本、图片分享等实用功能
 
-// 微信登陆
+// 微信登录
 - (IBAction)weChatLogin:(id)sender {
     
     [_bqlAuthEngine authLoginWeChatWithSuccess:^(id response) {
@@ -95,7 +95,7 @@
 }
 
 
-// QQ登陆
+// QQ登录
 - (IBAction)qqLogin:(id)sender {
     
     [_bqlAuthEngine authLoginQQWithSuccess:^(id response) {
