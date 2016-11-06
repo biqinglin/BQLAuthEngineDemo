@@ -99,7 +99,7 @@
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     return之前注册微信应用： [BQLAuthEngine initialAuthEngine]; （copy即可）
  
- *  5：在你需要登陆的方法调用：
+ *  5：在你需要登录的方法调用：
  
     BQLAuthEngine *bqlEngine = [[BQLAuthEngine alloc] init];
     [bqlEngine authLoginWeChatWithSuccess:^(id response) {
@@ -229,12 +229,12 @@ typedef NS_ENUM(NSInteger, AuthErrorCode)
 
 /*
  -----------------------------------
- 微信SDK接入（分享、登陆）🔽
+ 微信SDK接入（分享、登录）🔽
  -----------------------------------
 */
 
 /**
- *  授权微信登陆
+ *  授权微信登录
  *
  *  @param success  成功回调
  *  @param failure  失败回调
@@ -303,7 +303,7 @@ typedef NS_ENUM(NSInteger, AuthErrorCode)
 
 /*
  -----------------------------------
- 微信SDK接入（分享、登陆）🔼
+ 微信SDK接入（分享、登录）🔼
  -----------------------------------
  */
 
@@ -311,12 +311,12 @@ typedef NS_ENUM(NSInteger, AuthErrorCode)
 
 /*
  -----------------------------------
- QQSDK接入（分享、登陆）🔽
+ QQSDK接入（分享、登录）🔽
  -----------------------------------
  */
 
 /**
- *  授权QQ登陆
+ *  授权QQ登录
  *
  *  @param success  成功回调
  *  @param failure  失败回调
@@ -359,7 +359,7 @@ typedef NS_ENUM(NSInteger, AuthErrorCode)
 
 /*
  -----------------------------------
- QQSDK接入（分享、登陆）🔼
+ QQSDK接入（分享、登录）🔼
  -----------------------------------
  */
 
@@ -367,14 +367,14 @@ typedef NS_ENUM(NSInteger, AuthErrorCode)
 
 /*
  -----------------------------------
- 微博SDK接入（分享、登陆）🔽
+ 微博SDK接入（分享、登录）🔽
  -----------------------------------
  */
 
 #warning 微博的比较坑，要求你的bundle identifier与申请的一致，我写Demo用的就是不一致，授权是失败的，不过授权方法是没错的，你们测试的时候注意保持一致，若有问题联系我
 
 /**
- *  授权微博登陆
+ *  授权微博登录
  *
  *  @param success  成功回调
  *  @param failure  失败回调
@@ -386,7 +386,7 @@ typedef NS_ENUM(NSInteger, AuthErrorCode)
 
 /*
  -----------------------------------
- 微博SDK接入（分享、登陆）🔼
+ 微博SDK接入（分享、登录）🔼
  -----------------------------------
  */
 
